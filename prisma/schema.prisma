@@ -6,7 +6,7 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../generated/prisma"
+ 
 }
 
 datasource db {
@@ -23,3 +23,4 @@ model Temperature {
   updatedAt DateTime @updatedAt
   createdAt DateTime @default(now())
 }
+
